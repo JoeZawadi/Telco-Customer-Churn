@@ -2,8 +2,8 @@ streamlit
 plotly
 pandas
 numpy
-scikit-learn==1.6.1
-xgboost==3.4.1
+scikit-learn
+xgboost
 lightgbm
 shap
-joblib==1.4.2 
+joblib
