@@ -124,7 +124,7 @@ Open the local URL Streamlit prints (usually `http://localhost:8501`).
 
 ## 📬 Contact
 
-_[Add your name, LinkedIn, and/or portfolio link here]_
+_[Joshua Zawadi, https://ke.linkedin.com/in/joshua-zawadi-116b6b264, and/or portfolio link here]_
 
 ## 📜 License
 
