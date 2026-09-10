@@ -229,6 +229,7 @@ if page == "📊 Explore the Data":
         fig_contract = px.bar(
             contract_churn_melt,
             x="Contract",
+            barmode='group',
             y="Proportion",
             color="Churn",
             title="<b>Attrition Risk Breakdown by Commitment Strategy (Contract Type)</b>",
