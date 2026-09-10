@@ -201,12 +201,12 @@ if page == "📊 Explore the Data":
             filtered,
             x="tenure",
             color="Churn",
-            barmode="overlay",
+            barmode="group",
             nbins=30,
             marginal="box",
             title="<b>Customer Lifespan & Retentiveness (Tenure Distribution)</b>",
             color_discrete_map=CHURN_COLORS,
-            opacity=0.65,
+            opacity=0.9,
             labels={"tenure": "Account Age (Months)", "count": "Customer Volume"},
         )
         fig_hist.update_traces(marker=dict(line=dict(color="#ffffff", width=0.5)))
