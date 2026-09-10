@@ -254,6 +254,7 @@ if page == "📊 Explore the Data":
         fig_payment = px.bar(
             pm_churn,
             y="PaymentMethod",
+            barmode='group',
             x=["No", "Yes"],
             title="<b>Operational Pipeline & Volume Spread by Settlement Option</b>",
             color_discrete_map={"No": CHURN_COLORS["No"], "Yes": CHURN_COLORS["Yes"]},
